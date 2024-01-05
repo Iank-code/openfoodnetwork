@@ -62,22 +62,22 @@ hi:
       variant_override:
         count_on_hand: "अभी उपलब्ध"
       spree/payment_method/calculator:
-        preferred_flat_percent: "कैलकुलेटर फ्लैट प्रतिशत:"
-        preferred_amount: "कैलकुलेटर राशि:"
-        preferred_first_item: "कैलकुलेटर पहला आइटम:"
-        preferred_additional_item: "कैलकुलेटर अतिरिक्त आइटम लागत:"
-        preferred_max_items: "कैलकुलेटर अधिकतम आइटम्स:"
-        preferred_minimal_amount: "कैलकुलेटर न्यूनतम राशि:"
-        preferred_normal_amount: "कैलकुलेटर सामान्य राशि:"
-        preferred_discount_amount: "कैलकुलेटर डिस्काउंट राशि:"
-        preferred_unit_from_list: "सूची से कैलकुलेटर यूनिट:"
-        preferred_per_unit: "कैलकुलेटर प्रति यूनिट:"
+        preferred_flat_percent: "कॅल्क्युलेटर फ्लैट प्रतिशत:"
+        preferred_amount: "कॅल्क्युलेटर राशि:"
+        preferred_first_item: "कॅल्क्युलेटर पहला आइटम:"
+        preferred_additional_item: "कॅल्क्युलेटर अतिरिक्त आइटम लागत:"
+        preferred_max_items: "कॅल्क्युलेटर अधिकतम आइटम्स:"
+        preferred_minimal_amount: "कॅल्क्युलेटर न्यूनतम राशि:"
+        preferred_normal_amount: "कॅल्क्युलेटर सामान्य राशि:"
+        preferred_discount_amount: "कॅल्क्युलेटर डिस्काउंट राशि:"
+        preferred_unit_from_list: "सूची से कॅल्क्युलेटर यूनिट:"
+        preferred_per_unit: "कॅल्क्युलेटर प्रति यूनिट:"
       enterprise:
         white_label_logo_link: "शॉपफ्रन्ट में इस्तेमाल किए गए लोगो के लिए लिंक"
     errors:
       models:
         enterprise_fee:
-          inherit_tax_requires_per_item_calculator: "टैक्स की श्रेणी को इन्हेरिट करने के लिए प्रति-आइटम कैलकुलेटर की आवश्यकता है।"
+          inherit_tax_requires_per_item_calculator: "टैक्स की श्रेणी को इन्हेरिट करने के लिए प्रति-आइटम कॅल्क्युलेटर की आवश्यकता है।"
         spree/user:
           attributes:
             email:
@@ -253,7 +253,7 @@ hi:
         updated: "आपका पासवर्ड सफलतापूर्वक बदल दिया गया था। अब आप साइन इन हो गए हैं।"
         send_instructions: "अपने अकाउंट की पुष्टि कैसे करें, इन निर्देशों के साथ आपको कुछ ही मिनटों में एक ईमेल प्राप्त होगा।"
     oidc:
-      failure: "साइन इन नहीं कर सके: %{error} "
+      failure: "साइन इन नहीं कर सके: %{error}"
   home_page_alert_html: "होम पेज अलर्ट HTML"
   hub_signup_case_studies_html: "हब साइन अप केस अध्ययन HTML"
   hub_signup_detail_html: "हब साइनअप विवरण HTML"
@@ -274,11 +274,11 @@ hi:
       cloned_order_cycle_name: "%{order_cycle} की कॉपी"
     tax_rate:
       included_in_price: "कीमत में शामिल"
-  open_street_map_enabled: "स्ट्रीट मैप खोलें सक्षम "
-  open_street_map_default_latitude: "स्ट्रीट मैप खोलें डिफ़ॉल्ट लैटिट्यूड "
-  open_street_map_default_longitude: "स्ट्रीट मैप खोलें डिफ़ॉल्ट लान्जिटूड "
-  open_street_map_provider_name: "स्ट्रीट मैप खोलें प्रदाता का नाम"
-  open_street_map_provider_options: "स्ट्रीट मैप खोलें प्रदाता विकल्प"
+  open_street_map_enabled: "Open Street Map सक्षम"
+  open_street_map_default_latitude: "Open Street Map डिफ़ॉल्ट लैटिट्यूड"
+  open_street_map_default_longitude: "Open Street Map डिफ़ॉल्ट लान्जिटूड"
+  open_street_map_provider_name: "Open Street Map प्रदाता का नाम"
+  open_street_map_provider_options: "Open Street Map प्रदाता विकल्प"
   producer_signup_case_studies_html: "उत्पादक साइनअप केस अध्ययन HTML"
   producer_signup_detail_html: "उत्पादक साइनअप विवरण HTML"
   producer_signup_pricing_table_html: "उत्पादक साइनअप कीमत निर्धारण टेबल HTML"
@@ -323,7 +323,7 @@ hi:
       heading: "रिपोर्ट डाउनलोड के लिए तैयार"
       intro: |
           नीचे दिया गया लिंक एक सप्ताह के बाद समाप्त हो जाएगा।
-      link_label: "%{name} "
+      link_label: "%{name}"
   shipment_mailer:
     shipped_email:
       dear_customer: "प्रिय ग्राहक,"
@@ -331,8 +331,8 @@ hi:
       shipment_summary: "शिपमेंट का सारांश"
       subject: "शिपमेंट नोटिफिकेशन"
       thanks: "आपके बिजनेस के लिए धन्यवाद।"
-      track_information: "ट्रैकिंग जानकारी: %{tracking} "
-      track_link: "ट्रैकिंग लिंक: %{url} "
+      track_information: "ट्रैकिंग जानकारी: %{tracking}"
+      track_link: "ट्रैकिंग लिंक: %{url}"
   subscription_mailer:
     placement_summary_email:
       subject: हाल ही में किए गए सब्सक्रिप्शन ऑर्डर्स का सारांश
@@ -371,7 +371,7 @@ hi:
   home: "OFN"
   title: "Open Food Network"
   welcome_to: "आपका स्वागत है"
-  site_meta_description: "हम बिल्कुल नीचे से शुरू करते हैं। उन किसानों और उत्पादकों के साथ जो अपनी कहानियों को गर्व और सत्यता के सतह बताने के लिए तैयार हैं। उन वितरकों के साथ जो लोगों को उत्पादों से निष्पक्ष और ईमानदारी से जोड़ने के लिए तैयार हैं। उन खरीदारों के साथ जो मानते हैं कि बेहतर साप्ताहिक खरीदारी के फैसले दुनिया को गंभीरता से बदल सकते हैं।"
+  site_meta_description: "ओपन फूड नेटवर्क इंडिया सॉफ्टवेयर प्लेटफॉर्म किसानों को लाभदायक कीमतों पर अपनी उपज ऑनलाइन बेचने की सुविधा देता है। यह सॉफ़्टवेयर खाद्यान्न बेचने के लिए डिज़ाइन किया गया है ताकि यह विभिन्न मापों या स्टॉक स्तरों को संभाल सके जो केवल कृषि उत्पादों में आम हैं। जैसे एक दर्जन अंडे, धनिया का एक गुच्छा, या एक पूरे चिकन का वजन जो अलग-अलग हो सकता है।"
   search_by_name: नाम या उपनगर के आधार पर खोजें...
   producers_join: भारतीय उत्पादकों का अब Open Food Network में शामिल होने के लिए स्वागत है।
   charges_sales_tax: GST शुल्क?
@@ -688,8 +688,8 @@ hi:
         fee_type: "फीस का प्रकार"
         name: "नाम"
         tax_category: "टैक्स श्रेणी"
-        calculator: "कैलकुलेटर"
-        calculator_values: "कैलकुलेटर वैल्यू"
+        calculator: "कॅल्क्युलेटर"
+        calculator_values: "कॅल्क्युलेटर वैल्यू"
         search: "सर्च"
         name_placeholder: "जैसे पैकिंग शुल्क"
     enterprise_groups:
@@ -780,8 +780,6 @@ hi:
             other: "%{count} उत्पाद सेव नहीं किए जा सके। कृपया त्रुटियों को रिव्यू करें और फिर से प्रयास करें।"
         save: परिवर्तन सेव करें
         reset: परिवर्तनों को अस्वीकार करें
-      bulk_update:
-        success: "उत्पाद सफलतापूर्वक अपडेट किए गए"
     product_import:
       title: उत्पाद इम्पोर्ट करें
       file_not_found: फ़ाइल नहीं मिली या खोली नहीं जा सकी
@@ -880,6 +878,7 @@ hi:
         view_products: उत्पाडों के पेज पर जाएं
         view_inventory: इन्वेंट्री पेज पर जाएं
       product_headings:
+        distributor: वितरक
         producer: उत्पादक
         sku: SKU
         name: नाम
@@ -1207,10 +1206,12 @@ hi:
           remove_logo_confirm: "क्या आप वाकई इस लोगो को हटाना चाहते हैं?"
           remove_logo_success: "लोगो हटा दिया गया"
           white_label_logo_link_label: "शॉपफ्रन्ट में इस्तेमाल किए गए लोगो के लिए लिंक"
-          hide_groups_tab: "Shopfront में ग्रुप टैब छुपाएं"
-          create_custom_tab: "Shopfront में कस्टम टैब बनाएं"
+          hide_groups_tab: "शॉपफ्रन्ट में ग्रुप टैब छुपाएं"
+          create_custom_tab: "शॉपफ्रन्ट में कस्टम टैब बनाएं"
           custom_tab_title: "कस्टम टैब के लिए शीर्षक"
           custom_tab_content: "कस्टम टैब के लिए सामग्री"
+        connected_apps:
+          loading: "लोड हो रहा"
       actions:
         edit_profile: सेटिंग्स
         properties: प्रॉपर्टीज़
@@ -1285,6 +1286,14 @@ hi:
         create: "बनाएं"
         cancel: "रद्द करें"
         back_to_list: "सूची में वापस जाएं"
+      create:
+        success: 'आपका ऑर्डर साइकल बनाया गया है।'
+      update:
+        success: 'आपका ऑर्डर साइकल अपडेट कर दिया गया है।'
+      clone:
+        success: "आपका ऑर्डर साइकल %{name} क्लोन कर दिया गया है।"
+      notify_producers:
+        success: 'उत्पादकों को भेजे जाने वाले ईमेल भेजने के लिए कतारबद्ध किए गए हैं।'
       edit:
         save: "सेव करें"
         save_and_next: "सेव करें और अगला"
@@ -1480,7 +1489,7 @@ hi:
       totals_by_supplier: आपूर्तिकर्ता द्वारा ऑर्डर साइकल डिस्ट्रीब्यूटर कुल करें
       customer_totals: ऑर्डर साइकल ग्राहक योग
       all_products: सभी उत्पाद
-      inventory: इन्वेंट्री (हाथ पर)
+      inventory: इन्वेंट्री (अभी उपलब्ध)
       lettuce_share: लेट्यूस शेयर
       payment_methods: भुगतान विधियों की रिपोर्ट
       delivery: डिलिवरी रिपोर्ट
@@ -1716,301 +1725,15 @@ hi:
         title: अमान्य क्वेरी पैरामीटर
         extra_fields: "असमर्थित फ़ील्ड: %{fields}"
   checkout:
-    already_ordered:
-      cart: "कार्ट"
-      message_html: "आपके पास इस ऑर्डर साइकल के लिए पहले से ही एक ऑर्डर है। आपके द्वारा पहले ऑर्डर किए गए आइटम देखने के लिए %{cart} को चेक करें। जब तक ऑर्डर साइकल खुली रहती है, तब तक आप आइटम रद्द भी कर सकते हैं।"
-    terms_and_conditions:
-      message_html: "मैं विक्रेता के %{terms_and_conditions_link} से सहमत हूँ।"
-      link_text: "नियम और शर्तें"
-    platform_terms_of_service:
-      message_html: "मैं प्लेटफॉर्म %{tos_link} से सहमत हूँ।"
-    all_terms_and_conditions:
-      message_html: "मैं विक्रेता के %{terms_and_conditions_link} और प्लेटफॉर्म %{tos_link} से सहमत हूँ।"
-      terms_and_conditions: "नियम और शर्तें"
     failed: "चेकआउट विफल हुआ। कृपया हमें बताएं ताकि हम आपके ऑर्डर को प्रॉसेस कर सकें।"
     payment_cancelled_due_to_stock: "भुगतान रद्द किया गया: स्टॉक समस्याओं के कारण चेकआउट पूरा नहीं किया जा सका।"
     order_not_loaded: "चेकआउट प्रॉसेसिंग के लिए कोई मान्य ऑर्डर नहीं मिला"
-  shops:
-    hubs:
-      show_closed_shops: "बंद दुकानें दिखाएं"
-      hide_closed_shops: "बंद दुकानों को छिपाएँ"
-      show_on_map: "सभी को मैप पर दिखाएं"
-  shared:
-    mailers:
-      powered_by:
-        open_food_network: "Open Food Network"
-        powered_html: "आपका शॉपिंग अनुभव %{open_food_network} द्वारा संचालित होता है।"
-    menu:
-      cart:
-        cart: "कार्ट"
-      cart_sidebar:
-        checkout: "चेकआउट"
-        edit_cart: "कार्ट एडिट करें"
-        items_in_cart_singular: "आपके कार्ट में %{num} आइटम"
-        items_in_cart_plural: "आपके कार्ट में %{num} आइटम"
-        close: "बंद करें"
-        cart_empty: "आपका कार्ट खाली है"
-        take_me_shopping: "मुझे शॉपिंग करने के लिए ले जाओ!"
-      signed_in:
-        profile: "प्रोफ़ाइल"
-      mobile_menu:
-        cart: "कार्ट"
-    register_call:
-      selling_on_ofn: "Open Food Network में शामिल होने के इच्छुक हैं?"
-      register: "यहां रजिस्टर करें"
-    footer:
-      footer_secure: "सुरक्षित और भरोसेमंद।"
-      footer_secure_text: "आपकी खरीदारी और भुगतान की जानकारी को निजी रखने के लिए Open Food Network हर जगह SSL एन्क्रिप्शन (2048 बिट RSA) का उपयोग करता है। हमारे सर्वर आपके क्रेडिट कार्ड के विवरण को स्टोर नहीं करते हैं और भुगतान PCI-अनुरूप सेवाओं द्वारा प्रॉसेस किए जाते हैं।"
-      footer_contact_headline: "संपर्क में रहें"
-      footer_contact_email: "हमें ईमेल करें"
-      footer_nav_headline: "नेविगेट करें"
-      footer_join_headline: "हमें जॉइन करें"
-      footer_join_body: "Open Food Network पर एक लिस्टिंग, शॉप या ग्रुप डायरेक्टरी बनाएं।"
-      footer_join_cta: "मुझे और बताएं!"
-      footer_legal_call: "पढ़ें हमारा/री"
-      footer_legal_visit: " हमें इस पर ढूंढें"
-      footer_legal_text_html: "Open Food Network एक फ्री और ओपन सोर्स सॉफ्टवेयर प्लेटफॉर्म है। हमारा कंटेन्ट %{content_license} और हमारे कोड को %{code_license}के साथ लाइसेंस प्राप्त है।"
-      footer_data_text_with_privacy_policy_html: "हम आपके डेटा का अच्छे से ख्याल रखते हैं। हमारी %{privacy_policy} और %{cookies_policy} देखें"
-      footer_data_text_without_privacy_policy_html: "हम आपके डेटा का अच्छे से ख्याल रखते हैं। हमारी %{cookies_policy} देखें"
-      footer_data_privacy_policy: "गोपनीयता नीति"
-      footer_data_cookies_policy: "कुकीज़ नीति"
-  shop:
-    messages:
-      customer_required:
-        login: "लॉग-इन करें"
-        contact: "संपर्क"
-        require_customer_login: "केवल स्वीकृत ग्राहक ही इस शॉप तक एक्सेस कर सकते हैं।"
-        require_login_link_html: "यदि आप पहले से स्वीकृत ग्राहक हैं, तो आगे बढ़ने के लिए %{login}। "
-        require_login_2_html: "यहाँ खरीदारी शुरू करना चाहते हैं? कृपया %{contact} %{enterprise} और शामिल होने के बारे में पूछें।"
-        require_customer_html: "यदि आप यहाँ खरीदारी शुरू करना चाहते हैं, तो शामिल होने के बारे में पूछने के लिए कृपया %{contact} %{enterprise}"
-      select_oc:
-        select_oc_html: "कृपया <span class='highlighted'>चुनें कि आपको अपना ऑर्डर</span>कब चाहिए, यह देखने के लिए कि कौन से उत्पाद उपलब्ध हैं।"
-    products:
-      summary:
-        bulk: "थोक"
-  card_could_not_be_updated: कार्ड अपडेट नहीं किया जा सका
-  card_could_not_be_saved: कार्ड सहेजा नहीं जा सका
-  spree_gateway_error_flash_for_checkout: "आपकी भुगतान जानकारी में कोई समस्या थी: %{error}"
-  invoice_billing_address: "बिलिंग पता:"
-  invoice_column_tax: "GST"
-  invoice_column_price: "कीमत"
-  invoice_column_item: "आइटम"
-  invoice_column_qty: "मात्रा"
-  invoice_column_weight_volume: "वजन/वॉल्यूम।"
-  invoice_column_unit_price_with_taxes: "यूनिट कीमत (टैक्स सहित)"
-  invoice_column_unit_price_without_taxes: "यूनिट कीमत (टैक्स को छोड़कर)"
-  invoice_column_price_with_taxes: "कुल कीमत (टैक्स सहित)"
-  invoice_column_price_without_taxes: "कुल कीमत (टैक्स को छोड़कर)"
-  invoice_column_price_per_unit_without_taxes: "कीमत प्रति यूनिट (टैक्स को छोड़कर)"
-  invoice_column_tax_rate: "टैक्स रेट"
-  invoice_tax_total: "GST कुल:"
-  tax_invoice: "टैक्स इनवॉइस"
-  tax_total: "कुल टैक्स (%{rate} ):"
-  invoice_shipping_type: "टाइप करें:"
-  total_excl_tax: "कुल (टैक्स को छोड़कर):"
-  total_incl_tax: "कुल (टैक्स सहित):"
-  total_all_tax: "कुल टैक्स:"
-  abn: "ABN:"
-  acn: "ACN:"
-  invoice_issued_on: "इनवॉइस जारी किया गया:"
-  order_number: "ऑर्डर नंबर:"
-  date_of_transaction: "ट्रांजेक्शन की तिथि:"
-  menu_1_title: "दुकानें"
-  menu_1_url: "/shops"
-  menu_2_title: "नक्शा"
-  menu_2_url: "/map"
-  menu_3_title: "उत्पादक"
-  menu_3_url: "/producers"
-  menu_4_title: "ग्रुप्स"
-  menu_4_url: "/groups"
-  menu_5_title: "परिचय"
-  menu_5_url: "https://about.openfoodnetwork.in/"
-  menu_6_title: "कनेक्ट करें"
-  menu_6_url: "https://openfoodnetwork.org/au/connect/"
-  menu_7_title: "सीखें"
-  menu_7_url: "https://openfoodnetwork.org/au/learn/"
-  logo: "लोगो (640x130)"
-  logo_mobile: "मोबाइल लोगो (75x26)"
-  logo_mobile_svg: "मोबाइल लोगो (SVG)"
-  home_hero: "हीरो छवि"
-  home_show_stats: "आंकड़े दिखाएं"
-  footer_logo: "लोगो (220x76)"
-  footer_facebook_url: "Facebook का URL"
-  footer_twitter_url: "Twitter का URL"
-  footer_instagram_url: "Instagram का URL"
-  footer_linkedin_url: "LinkedIn का URL"
-  footer_googleplus_url: "Google Plus का URL"
-  footer_pinterest_url: "Pinterest का URL"
-  footer_email: "ईमेल"
-  footer_links_md: "लिंक्स"
-  footer_about_url: "URL के बारे में"
-  user_guide_link: "यूज़र गाइड लिंक"
-  name: नाम
-  first_name: पहला नाम
-  last_name: अंतिम नाम
-  email: ईमेल
-  phone: फ़ोन
-  next: अगला
-  address: पता
-  address_placeholder: उदाहरण के लिए 123 हाई स्ट्रीट
-  address2: पता (जारी)
-  city: शहर
-  city_placeholder: उदाहरण नॉर्थकोट
-  latitude: अक्षांश
-  latitude_placeholder: उदाहरण -37.4713077
-  latitude_longitude_tip: मैप पर आपके एंटरप्राइज़ को प्रदर्शित करने के लिए अक्षांश और देशांतर की जरूरत होती है।
-  longitude: देशान्तर
-  longitude_placeholder: उदाहरण के लिए 144.7851531
-  use_geocoder: पते से ऑटोमैटिक्ली अक्षांश और देशांतर को कैलकुलेट करें?
-  state: राज्य
-  postcode: पोस्टकोड
-  postcode_placeholder: उदाहरण 3070
-  suburb: उपनगर
-  country: देश
-  unauthorized: अनधिकृत
-  terms_of_service: "सेवा की शर्तें"
-  on_demand: अभी मांग में
-  not_allowed: अनुमति नहीं है
-  no_shipping: कोई शिपिंग विधियाँ नहीं
-  no_payment: कोई भुगतान विधियाँ नहीं
-  no_shipping_or_payment: कोई शिपिंग या भुगतान विधियाँ नहीं
-  unconfirmed: अस्थायी
-  days: दिन
-  authorization_failure: "प्राधिकरण विफलता"
-  description: "विवरण"
-  label_shop: "शॉप"
-  label_shops: "दुकानें"
-  label_map: "नक्शा"
-  label_producer: "उत्पादक"
-  label_producers: "उत्पादक"
-  label_groups: "ग्रुप्स"
-  label_about: "परिचय"
-  label_blog: "ब्लॉग"
-  label_support: "समर्थन"
-  label_shopping: "शॉपिंग"
-  label_login: "लॉग-इन करें"
-  label_logout: "लॉग-आउट करें"
-  label_signup: "साइन अप करें"
-  label_administration: "प्रशासन"
-  label_admin: "प्रशासन"
-  label_account: "अकाउंट"
-  label_more: "और दिखाएं"
-  label_less: "कम दिखाएं"
-  label_notices: "नोटिस"
-  cart_items: "आइटम्स"
-  cart_headline: "आपका शॉपिंग कार्ट"
-  total: "कुल"
-  cart_updating: "कार्ट अपडेट किया जा रहा है..."
-  cart_empty: "कार्ट खाली है"
-  cart_edit: "अपना कार्ट एडिट करें"
-  item: "आइटम"
-  qty: "मात्रा"
-  card_number: कार्ड नंबर
-  card_securitycode: "सुरक्षा कोड"
-  card_expiry_date: समय समाप्ति तिथि
-  card_masked_digit: "X"
-  card_expiry_abbreviation: "समाप्ति"
-  new_credit_card: "नया क्रेडिट कार्ड"
-  my_credit_cards: मेरे क्रेडिट कार्ड्स
-  add_new_credit_card: नया क्रेडिट कार्ड जोड़ें
-  saved_cards: सेव किए गए कार्ड
-  add_a_card: एक कार्ड जोड़ें
-  add_card: कार्ड जोड़ें
-  you_have_no_saved_cards: आपने अभी तक कोई भी कार्ड्स सेव नहीं किया है
-  saving_credit_card: क्रेडिट कार्ड सेव किया जा रहा है...
-  card_has_been_removed: "आपका कार्ड हटा दिया गया है (संख्या: %{number} )"
-  card_could_not_be_removed: माफ करें, कार्ड हटाया नहीं जा सका
-  invalid_credit_card: "अमान्य क्रेडिट कार्ड"
-  legal:
-    cookies_policy:
-      header: "कैसे हम कुकीज़ का उपयोग करते हैं"
-      desc_part_1: "जब आप कुछ वेबसाइटों पर जाते हैं तो कुकीज़ बहुत छोटी टेक्स्ट फ़ाइलें होती हैं जो आपके कंप्यूटर में स्टोर होती हैं।"
-      desc_part_2: "OFN में हम आपकी गोपनीयता का पूरा सम्मान करते हैं। हम केवल उन्हीं कुकीज़ का उपयोग करते हैं जो आपको ऑनलाइन खाद्यान्न बेचने/खरीदने की सेवा देने के लिए जरूरी हैं। हम आपका कोई भी डेटा नहीं बेचते हैं। हम भविष्य में आपको नई सामान्य सेवाओं के निर्माण के लिए अपना कुछ डेटा शेयर करने का प्रस्ताव दे सकते हैं जो इकोसिस्टम के लिए उपयोगी हो सकती हैं (जैसे कि शॉर्ट फूड सिस्टम के लिए लॉजिस्टिक्स सेवाएं) लेकिन हम अभी तक वहां नहीं हैं, और हम आपके प्राधिकरण के बिना ऐसा नहीं करेंगे :-)"
-      desc_part_3: "हम कुकीज़ का उपयोग मुख्य रूप से यह याद रखने के लिए करते हैं कि आप कौन हैं, यदि आप सेवा में 'लॉग इन' करते हैं, या आपके कार्ट में रखी गई वस्तुओं को याद रखने में सक्षम होने के लिए, भले ही आप लॉग इन न हों। यदि आप “कुकीज़ स्वीकार करें” पर क्लिक किए बिना वेबसाइट पर नेविगेट करते रहते हैं, तो हम मानते हैं कि आप हमें उन कुकीज़ को स्टोर करने के लिए सहमति दे रहे हैं जो वेबसाइट के कामकाज के लिए आवश्यक हैं। हमारे द्वारा उपयोग की जाने वाली कुकीज़ की सूची यहां दी गई है!"
-      essential_cookies: "आवश्यक कुकीज़"
-      essential_cookies_desc: "हमारी वेबसाइट के संचालन के लिए निम्नलिखित कुकीज़ कठोरता से जरूरी हैं।"
-      essential_cookies_note: "बहुत सी कुकीज़ में केवल एक यूनीक पहचानकर्ता होता है, लेकिन कोई अन्य डेटा नहीं होता है, इसलिए उदाहरण के लिए आपका ईमेल पता और पासवर्ड कभी भी उनमें समाहित नहीं होता है और कभी उजागर नहीं होता है।"
-      cookie_domain: "इसके द्वारा सेट करें:"
-      cookie_session_desc: "वेबसाइट को पेज विज़िट के बीच यूज़र को याद रखने की अनुमति देने के लिए उपयोग किया जाता है, उदाहरण के लिए, अपने कार्ट में आइटम याद रखें।"
-      cookie_consent_desc: "कुकीज़ को स्टोर करने के लिए यूज़र्स की सहमति की स्थिति बनाए रखने के लिए उपयोग किया जाता है"
-      cookie_remember_me_desc: "इसका उपयोग तब किया जाता है जब यूज़र ने वेबसाइट से उसे याद रखने का अनुरोध किया हो। यह कुकी 12 दिनों के बाद ऑटोमैटिक्ली हटा दी जाती है। यदि एक यूज़र्स के रूप में आप चाहते हैं कि कुकी हटा दी जाए, तो आपको सिर्फ लॉग-आउट करने की जरूरत है। यदि आप नहीं चाहते कि कुकी आपके कंप्यूटर में इंस्टॉल हो, तो आपको लॉग-इन करते समय “मुझे याद रखें” चेकबॉक्स को चेक नहीं करना चाहिए।"
-      cookie_openstreemap_desc: "इसका उपयोग हमारे सहायक ओपन सोर्स मैपिंग प्रदाता (OpenStreetMap) द्वारा यह सुनिश्चित करने के लिए किया जाता है कि किसी निश्चित समयावधि के दौरान उसे बहुत ज्यादा अनुरोध प्राप्त न हों, ताकि उनकी सेवाओं के दुरुपयोग को रोका जा सके।"
-      cookie_stripe_desc: "धोखाधड़ी का पता लगाने के लिए हमारे भुगतान प्रॉसेसर Stripe द्वारा एकत्र किया गया डेटा https://stripe.com/cookies-policy/legal. सभी दुकानें भुगतान विधि के रूप में Stripe का उपयोग नहीं करती हैं, लेकिन धोखाधड़ी को रोकने के लिए इसे सभी पेजों पर लागू करना एक अच्छी प्रैक्टिस है। Stripe शायद इस बात की तस्वीर बनाता है कि हमारे कौन से पेज आमतौर पर उनके API के साथ इंटरैक्ट करते हैं और फिर किसी भी असामान्य चीज़ को फ़्लैग करते हैं। इसलिए Stripe कुकी सेट करना यूज़र्स के लिए भुगतान विधि के प्रावधान की तुलना में व्यापक कार्य है। इसे हटाने से सेवा की सुरक्षा स्वयं प्रभावित हो सकती है। आप Stripe के बारे में ज्यादा जान सकते हैं और https://stripe.com/privacy पर इसकी गोपनीयता नीति पढ़ सकते हैं।"
-      statistics_cookies: "सांख्यिकी कुकीज़"
-      statistics_cookies_desc: "निम्नलिखित सख्ती से आवश्यक नहीं हैं, लेकिन हमें यूज़र्स व्यवहार का विश्लेषण करने, यह पहचानने की अनुमति देकर कि आप किन फीचर्स का सबसे ज्यादा उपयोग करते हैं, या उपयोग नहीं करते हैं, यूज़र्स अनुभव समस्याओं को समझने आदि की अनुमति देकर आपको सर्वश्रेष्ठ यूज़र्स अनुभव प्रदान करने में मदद करते हैं।"
-      statistics_cookies_matomo_desc_html: "प्लेटफ़ॉर्म उपयोग डेटा एकत्र करने और उसका विश्लेषण करने के लिए, हम <a href='https://matomo.org/' target='_blank'>Matomo</a> (ex Piwik) का उपयोग करते हैं, जो एक ओपन सोर्स एनालिटिक्स टूल है जो GDPR के अनुरूप है और आपकी गोपनीयता की सुरक्षा करता है।"
-      statistics_cookies_matomo_optout: "क्या आप Matomo एनालिटिक्स से ऑप्ट-आउट करना चाहते हैं? हम कोई व्यक्तिगत डेटा एकत्र नहीं करते हैं, और Matomo हमारी सेवा को बेहतर बनाने में हमारी मदद करता है, लेकिन हम आपकी पसंद का सम्मान करते हैं :-)"
-      cookie_matomo_basics_desc: "आंकड़े एकत्र करने के लिए Matomo पहली पार्टी कुकीज़ है।"
-      cookie_matomo_heatmap_desc: "Matomo Heatmap और सत्र रिकॉर्डिंग कुकी।"
-      cookie_matomo_ignore_desc: "कुकी का उपयोग यूज़र्स को ट्रैक किए जाने से बाहर करने के लिए किया जाता था।"
-      disabling_cookies_header: "कुकीज़ को अक्षम करने पर चेतावनी"
-      disabling_cookies_desc: "एक यूज़र के रूप में आप अपने ब्राउज़र के सेटिंग नियंत्रण के माध्यम से जब चाहें Open Food Network या किसी अन्य वेबसाइट कुकीज़ को हमेशा अनुमति दे सकते हैं, ब्लॉक कर सकते हैं या हटा सकते हैं। प्रत्येक ब्राउज़र का एक अलग ऑपरेटिव होता है। यहां लिंक दिए गए हैं:"
-      disabling_cookies_firefox_link: "https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences"
-      disabling_cookies_chrome_link: "https://support.google.com/chrome/answer/95647"
-      disabling_cookies_ie_link: "https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies"
-      disabling_cookies_safari_link: "https://www.apple.com/legal/privacy/en-ww/cookies/"
-      disabling_cookies_note: "लेकिन ध्यान रखें कि यदि आप Open Food Network द्वारा उपयोग की जाने वाली आवश्यक कुकीज़ को हटाते हैं या संशोधित करते हैं, तो वेबसाइट काम नहीं करेगी, आप अपने कार्ट में कुछ भी जोड़ नहीं पाएंगे और न ही उदाहरण के लिए चेकआउट कर पाएंगे।"
-    cookies_banner:
-      cookies_usage: "यह साइट आपके नेविगेशन को घर्षणहीन और सुरक्षित बनाने के लिए और हमारे द्वारा ऑफर किए जाने वाले फीचर को बेहतर बनाने के लिए आप इसका उपयोग कैसे करते हैं, यह समझने में हमारी सहायता करने के लिए कुकीज़ का उपयोग करती है।"
-      cookies_definition: "जब आप कुछ वेबसाइटों पर जाते हैं तो कुकीज़ बहुत छोटी टेक्स्ट फ़ाइलें होती हैं जो आपके कंप्यूटर में स्टोर होती हैं।"
-      cookies_desc: "हम सिर्फ उन कुकीज़ का उपयोग करते हैं जो आपको ऑनलाइन खाद्यान्न की बिक्री और खरीद सेवा प्रदान करने के लिए आवश्यक हैं। हम आपका कोई भी डेटा नहीं बेचते हैं। हम कुकीज़ का उपयोग मुख्य रूप से यह याद रखने के लिए करते हैं कि आप कौन हैं, यदि आप सेवा में 'लॉग इन' करते हैं, या आपके द्वारा अपने कार्ट में रखे गए आइटम को याद रखने में सक्षम होने के लिए, भले ही आप लॉग इन न हों। यदि आप “कुकीज़ स्वीकार करें” पर क्लिक किए बिना वेबसाइट पर नेविगेट करते रहते हैं, तो हम मानते हैं कि आप हमें उन कुकीज़ को स्टोर करने के लिए सहमति दे रहे हैं जो वेबसाइट के कामकाज के लिए आवश्यक हैं।"
-      cookies_policy_link_desc: "यदि आप और सीखना चाहते हैं, तो हमारा चेक करें"
-      cookies_policy_link: "कुकीज़ नीति"
-      cookies_accept_button: "कुकीज़ स्वीकार करें"
-  home_shop: अभी खरीदें
-  brandstory_headline: "कृषि उत्पाद, स्थानीय और स्वस्थ!"
-  brandstory_intro: "कभी-कभी सिस्टम को ठीक करने का सबसे अच्छा तरीका एक नया सिस्टम शुरू करना होता है…"
-  brandstory_part1: "हम बिल्कुल नीचे से शुरू करते हैं। उन किसानों और उत्पादकों के साथ जो अपनी कहानियों को गर्व और सत्यता के सतह बताने के लिए तैयार हैं। उन वितरकों के साथ जो लोगों को उत्पादों से निष्पक्ष और ईमानदारी से जोड़ने के लिए तैयार हैं। उन खरीदारों के साथ जो मानते हैं कि बेहतर साप्ताहिक खरीदारी के फैसले दुनिया को गंभीरता से बदल सकते हैं।"
-  brandstory_part2: "फिर हमें इसे वास्तविक बनाने का एक तरीका चाहिए। अनाज उगाने, बेचने और खरीदने वाले हर व्यक्ति को सशक्त बनाने का एक तरीका। सभी कहानियों को बताने का, सभी लॉजिस्टिक्स को संभालने का एक तरीका। हर दिन लेनदेन को परिवर्तन में बदलने का एक तरीका।"
-  brandstory_part3: "इसलिए, समान अवसर प्रदान करने के लिए, हम एक ऑनलाइन मार्केटप्लेस बनाते हैं। यह पारदर्शी होता है, इसलिए वास्तविक रिश्ते बनते हैं। चूँकि यह ओपन सोर्स है, इसका स्वामित्व हर किसी के पास है। यह खुद को विभिन्न क्षेत्रों और राष्ट्रों के अनुसार ढाल सकता है, इसलिए लोग पूरी दुनिया में इसके वर्जन्स शुरू करते हैं।"
-  brandstory_part4: "यह हर जगह काम करता है। यह सब कुछ बदल देता है।"
-  brandstory_part5_strong: "हम इसे Open Food Network कहते हैं।"
-  brandstory_part6: "हम सभी को अपना खाद्यान्न बहुत पसंद होता है। अब हम अपने खाद्यान्न व्यवस्था पर भी प्यार कर सकते हैं।"
-  system_headline: "खरीदारी - कैसे करेंगे वह यहां देखेंगे।"
-  system_step1: "1. सर्च करें"
-  system_step1_text: "मौसमी स्थानीय खाद्यान्न के लिए, हमारी विविध, स्वतंत्र दुकानें खोजें। आस-पड़ोस के आधार पर और खाद्यान्न के श्रेणी पर खोजें, या आप डिलीवरी पसंद करते हैं या पिकअप।"
-  system_step2: "2. दुकान"
-  system_step2_text: "विविध उत्पादकों और हब्स के किफायती स्थानीय खाद्यान्नों के साथ अपने व्यवहार को बदल दें। अपने खाद्यान्नों के पीछे की कहानियों और इसे बनाने वाले लोगों के बारे में जानें!"
-  system_step3: "3. पिक-अप/डिलीवरी"
-  system_step3_text: "अपनी डिलीवरी के लिए रुकें, या अपने खाद्यानों के साथ ज्यादा व्यक्तिगत संबंध के लिए अपने उत्पादक के पास या हब पर जाएं। खाने की खरीदारी उतनी ही विविध है जितनी प्रकृति की मंशा थी।"
-  cta_headline: "खरीदारी जो दुनिया को एक बेहतर जगह बनाती है।"
-  cta_label: "मैं तैयार हूँ"
-  stats_headline: "हम एक नई खाद्यान्न व्यवस्था बना रहे हैं।"
-  stats_producers: "खाद्यान्नों के उत्पादक"
-  stats_shops: "खाद्यान्नों की दुकानें"
-  stats_shoppers: "खाद्यान्नों के दुकानदार"
-  stats_orders: "खाद्यान्नों के ऑर्डर्स"
-  checkout_title: चेकआउट
-  checkout_now: अभी चेकआउट करें
-  checkout_order_ready: ऑर्डर के लिए तैयार
-  checkout_hide: छिपाएँ
-  checkout_expand: बढ़ाएँ
-  checkout_headline: "ठीक है, चेकआउट के लिए तैयार हैं?"
-  checkout_as_guest: "मेहमान के रूप में चेकआउट करें"
-  checkout_details: "आपकी जानकारी"
-  checkout_billing: "बिलिंग की जानकारी"
-  checkout_default_bill_address: "डिफ़ॉल्ट बिलिंग पते के रूप में सेव करें"
-  checkout_shipping: शिपिंग की जानकारी
-  checkout_default_ship_address: "डिफ़ॉल्ट शिपिंग पते के रूप में सेव करें"
-  checkout_method_free: फ्री
-  checkout_address_same: शिपिंग पता बिलिंग पते के जैसा ही है?
-  checkout_ready_for: "इसके लिए तैयार:"
-  checkout_instructions: "कोई कमेंट्स या विशेष निर्देश?"
-  checkout_payment: भुगतान
-  checkout_send: अभी ऑर्डर दें
-  checkout_your_order: आपका ऑर्डर
-  checkout_cart_total: कुल कार्ट
-  checkout_shipping_price: शिपिंग
-  checkout_total_price: कुल
-  checkout_back_to_cart: "कार्ट में वापस जाएं"
-  cost_currency: "कॉस्ट करेंसी"
-  split_checkout:
     your_details_without_number: आपकी जानकारी
     payment_method_without_number: भुगतान विधि
     order_summary_without_number: ऑर्डर का सारांश
     already_ordered:
       cart: "कार्ट"
-      message_html: "आपकी इस ऑर्डर साइकल में पहले से ही एक ऑर्डर है। आपके द्वारा पहले ऑर्डर किए गए आइटम देखने के लिए %{cart} को चेक करें। जब तक ऑर्डर साइकल खुली रहती है, तब तक आप आइटम रद्द भी कर सकते हैं।"
+      message_html: "आपके पास इस ऑर्डर साइकल के लिए पहले से ही एक ऑर्डर है। आपके द्वारा पहले ऑर्डर किए गए आइटम देखने के लिए %{cart} को चेक करें। जब तक ऑर्डर साइकल खुली रहती है, तब तक आप आइटम रद्द भी कर सकते हैं।"
     step1:
       contact_information:
         title: संपर्क जानकारी
@@ -2104,6 +1827,281 @@ hi:
       no_shipping_methods_available: शिपिंग विकल्पों की अनुपस्थिति के कारण चेकआउट संभव नहीं है। कृपया शॉप के मालिक से संपर्क करें।
       voucher_not_found: नहीं मिला
       add_voucher_error: वाउचर जोड़ते समय एक त्रुटि हुई
+  shops:
+    hubs:
+      show_closed_shops: "बंद दुकानें दिखाएं"
+      hide_closed_shops: "बंद दुकानों को छिपाएँ"
+      show_on_map: "सभी को मैप पर दिखाएं"
+  shared:
+    mailers:
+      powered_by:
+        open_food_network: "Open Food Network"
+        powered_html: "आपका शॉपिंग अनुभव %{open_food_network} द्वारा संचालित होता है।"
+    menu:
+      cart:
+        cart: "कार्ट"
+      cart_sidebar:
+        checkout: "चेकआउट"
+        edit_cart: "कार्ट एडिट करें"
+        items_in_cart_singular: "आपके कार्ट में %{num} आइटम"
+        items_in_cart_plural: "आपके कार्ट में %{num} आइटम"
+        close: "बंद करें"
+        cart_empty: "आपका कार्ट खाली है"
+        take_me_shopping: "मुझे शॉपिंग करने के लिए ले जाओ!"
+      signed_in:
+        profile: "प्रोफ़ाइल"
+      mobile_menu:
+        cart: "कार्ट"
+    register_call:
+      selling_on_ofn: "Open Food Network में शामिल होने के इच्छुक हैं?"
+      register: "यहां रजिस्टर करें"
+    footer:
+      footer_secure: "सुरक्षित और भरोसेमंद।"
+      footer_secure_text: "आपकी खरीदारी और भुगतान की जानकारी को निजी रखने के लिए Open Food Network हर जगह SSL एन्क्रिप्शन (2048 बिट RSA) का उपयोग करता है। हमारे सर्वर आपके क्रेडिट कार्ड के विवरण को स्टोर नहीं करते हैं और भुगतान PCI-अनुरूप सेवाओं द्वारा प्रॉसेस किए जाते हैं।"
+      footer_contact_headline: "संपर्क में रहें"
+      footer_contact_email: "हमें ईमेल करें"
+      footer_nav_headline: "नेविगेट करें"
+      footer_join_headline: "हमें जॉइन करें"
+      footer_join_body: "Open Food Network पर एक लिस्टिंग, शॉप या ग्रुप डायरेक्टरी बनाएं।"
+      footer_join_cta: "मुझे और बताएं!"
+      footer_legal_call: "पढ़ें हमारा/री"
+      footer_legal_visit: " हमें इस पर ढूंढें"
+      footer_legal_text_html: "Open Food Network एक फ्री और ओपन सोर्स सॉफ्टवेयर प्लेटफॉर्म है। हमारा कंटेन्ट %{content_license} और हमारे कोड को %{code_license}के साथ लाइसेंस प्राप्त है।"
+      footer_data_text_with_privacy_policy_html: "हम आपके डेटा का अच्छे से ख्याल रखते हैं। हमारी %{privacy_policy} और %{cookies_policy} देखें"
+      footer_data_text_without_privacy_policy_html: "हम आपके डेटा का अच्छे से ख्याल रखते हैं। हमारी %{cookies_policy} देखें"
+      footer_data_privacy_policy: "गोपनीयता नीति"
+      footer_data_cookies_policy: "कुकीज़ नीति"
+  shop:
+    messages:
+      customer_required:
+        login: "लॉग-इन करें"
+        contact: "संपर्क"
+        require_customer_login: "केवल स्वीकृत ग्राहक ही इस शॉप तक एक्सेस कर सकते हैं।"
+        require_login_link_html: "यदि आप पहले से स्वीकृत ग्राहक हैं, तो आगे बढ़ने के लिए %{login}। "
+        require_login_2_html: "यहाँ खरीदारी शुरू करना चाहते हैं? कृपया %{contact} %{enterprise} और शामिल होने के बारे में पूछें।"
+        require_customer_html: "यदि आप यहाँ खरीदारी शुरू करना चाहते हैं, तो शामिल होने के बारे में पूछने के लिए कृपया %{contact} %{enterprise}"
+      select_oc:
+        select_oc_html: "कृपया <span class='highlighted'>चुनें कि आपको अपना ऑर्डर</span>कब चाहिए, यह देखने के लिए कि कौन से उत्पाद उपलब्ध हैं।"
+    products:
+      summary:
+        bulk: "थोक"
+  card_could_not_be_updated: कार्ड अपडेट नहीं किया जा सका
+  card_could_not_be_saved: कार्ड सहेजा नहीं जा सका
+  spree_gateway_error_flash_for_checkout: "आपकी भुगतान जानकारी में कोई समस्या थी: %{error}"
+  invoice_billing_address: "बिलिंग पता:"
+  invoice_column_tax: "GST"
+  invoice_column_price: "कीमत"
+  invoice_column_item: "आइटम"
+  invoice_column_qty: "मात्रा"
+  invoice_column_weight_volume: "वजन/वॉल्यूम।"
+  invoice_column_unit_price_with_taxes: "यूनिट कीमत (टैक्स सहित)"
+  invoice_column_unit_price_without_taxes: "यूनिट कीमत (टैक्स को छोड़कर)"
+  invoice_column_price_with_taxes: "कुल कीमत (टैक्स सहित)"
+  invoice_column_price_without_taxes: "कुल कीमत (टैक्स को छोड़कर)"
+  invoice_column_price_per_unit_without_taxes: "कीमत प्रति यूनिट (टैक्स को छोड़कर)"
+  invoice_column_tax_rate: "टैक्स रेट"
+  invoice_tax_total: "GST कुल:"
+  tax_invoice: "टैक्स इनवॉइस"
+  tax_total: "कुल टैक्स (%{rate} ):"
+  invoice_shipping_category_delivery: "डिलिवरी"
+  invoice_shipping_category_pickup: "पिकअप"
+  total_excl_tax: "कुल (टैक्स को छोड़कर):"
+  total_incl_tax: "कुल (टैक्स सहित):"
+  total_all_tax: "कुल टैक्स:"
+  abn: "ABN:"
+  acn: "ACN:"
+  invoice_issued_on: "इनवॉइस जारी किया गया:"
+  order_number: "ऑर्डर नंबर:"
+  date_of_transaction: "ट्रांजेक्शन की तिथि:"
+  menu_1_title: "दुकानें"
+  menu_1_url: "/shops"
+  menu_2_title: "नक्शा"
+  menu_2_url: "/map"
+  menu_3_title: "उत्पादक"
+  menu_3_url: "/producers"
+  menu_4_title: "ग्रुप्स"
+  menu_4_url: "/groups"
+  menu_5_title: "परिचय"
+  menu_5_url: "https://about.openfoodnetwork.in"
+  menu_6_title: "मूल्य निर्धारण"
+  menu_6_url: "https://about.openfoodnetwork.in/pricing/"
+  menu_7_title: "मदद"
+  menu_7_url: "https://about.openfoodnetwork.in/help/"
+  logo: "लोगो (640x130)"
+  logo_mobile: "मोबाइल लोगो (75x26)"
+  logo_mobile_svg: "मोबाइल लोगो (SVG)"
+  home_hero: "हीरो छवि"
+  home_show_stats: "आंकड़े दिखाएं"
+  footer_logo: "लोगो (220x76)"
+  footer_facebook_url: "Facebook का URL"
+  footer_twitter_url: "Twitter का URL"
+  footer_instagram_url: "Instagram का URL"
+  footer_linkedin_url: "LinkedIn का URL"
+  footer_googleplus_url: "Google Plus का URL"
+  footer_pinterest_url: "Pinterest का URL"
+  footer_email: "ईमेल"
+  footer_links_md: "लिंक्स"
+  footer_about_url: "URL के बारे में"
+  user_guide_link: "यूज़र गाइड लिंक"
+  name: नाम
+  first_name: पहला नाम
+  last_name: अंतिम नाम
+  email: ईमेल
+  phone: फ़ोन
+  next: अगला
+  address: पता
+  address_placeholder: उदाहरण के लिए 123 सरदार वल्लभभाई पटेल रोड
+  address2: पता (जारी)
+  city: शहर
+  city_placeholder: उदाहरण नॉर्थकोट
+  latitude: अक्षांश
+  latitude_placeholder: उदाहरण -37.4713077
+  latitude_longitude_tip: मैप पर आपके एंटरप्राइज़ को प्रदर्शित करने के लिए अक्षांश और रेखांश की जरूरत होती है।
+  longitude: रेखांश
+  longitude_placeholder: उदाहरण के लिए 144.7851531
+  use_geocoder: पते से अक्षांश और रेखांश को ऑटोमैटिक्ली कैलकुलेट करें?
+  state: राज्य
+  postcode: पोस्टकोड
+  postcode_placeholder: उदाहरण 3070
+  suburb: उपनगर
+  country: देश
+  unauthorized: अनधिकृत
+  terms_of_service: "सेवा की शर्तें"
+  on_demand: अभी मांग में
+  not_allowed: अनुमति नहीं है
+  no_shipping: कोई शिपिंग विधियाँ नहीं
+  no_payment: कोई भुगतान विधियाँ नहीं
+  no_shipping_or_payment: कोई शिपिंग या भुगतान विधियाँ नहीं
+  unconfirmed: अस्थायी
+  days: दिन
+  authorization_failure: "प्राधिकरण विफलता"
+  description: "विवरण"
+  label_shop: "शॉप"
+  label_shops: "दुकानें"
+  label_map: "नक्शा"
+  label_producer: "उत्पादक"
+  label_producers: "उत्पादक"
+  label_groups: "ग्रुप्स"
+  label_about: "परिचय"
+  label_blog: "ब्लॉग"
+  label_support: "सपोर्ट"
+  label_shopping: "शॉपिंग"
+  label_login: "लॉग-इन करें"
+  label_logout: "लॉग-आउट करें"
+  label_signup: "साइन अप करें"
+  label_administration: "प्रशासन"
+  label_admin: "प्रशासन"
+  label_account: "अकाउंट"
+  label_more: "और दिखाएं"
+  label_less: "कम दिखाएं"
+  label_notices: "नोटिस"
+  cart_items: "आइटम्स"
+  cart_headline: "आपका शॉपिंग कार्ट"
+  total: "कुल"
+  cart_updating: "कार्ट अपडेट किया जा रहा है..."
+  cart_empty: "कार्ट खाली है"
+  cart_edit: "अपना कार्ट एडिट करें"
+  item: "आइटम"
+  qty: "मात्रा"
+  card_number: कार्ड नंबर
+  card_securitycode: "सुरक्षा कोड"
+  card_expiry_date: समय समाप्ति तिथि
+  card_masked_digit: "X"
+  card_expiry_abbreviation: "समाप्ति"
+  new_credit_card: "नया क्रेडिट कार्ड"
+  my_credit_cards: मेरे क्रेडिट कार्ड्स
+  add_new_credit_card: नया क्रेडिट कार्ड जोड़ें
+  saved_cards: सेव किए गए कार्ड
+  add_a_card: एक कार्ड जोड़ें
+  add_card: कार्ड जोड़ें
+  you_have_no_saved_cards: आपने अभी तक कोई भी कार्ड्स सेव नहीं किया है
+  saving_credit_card: क्रेडिट कार्ड सेव किया जा रहा है...
+  card_has_been_removed: "आपका कार्ड हटा दिया गया है (संख्या: %{number} )"
+  card_could_not_be_removed: माफ करें, कार्ड हटाया नहीं जा सका
+  invalid_credit_card: "अमान्य क्रेडिट कार्ड"
+  legal:
+    cookies_policy:
+      header: "कैसे हम कुकीज़ का उपयोग करते हैं"
+      desc_part_1: "जब आप कुछ वेबसाइटों पर जाते हैं तो कुकीज़ बहुत छोटी टेक्स्ट फ़ाइलें होती हैं जो आपके कंप्यूटर में स्टोर होती हैं।"
+      desc_part_2: "OFN में हम आपकी गोपनीयता का पूरा सम्मान करते हैं। हम केवल उन्हीं कुकीज़ का उपयोग करते हैं जो आपको ऑनलाइन खाद्यान्न बेचने/खरीदने की सेवा देने के लिए जरूरी हैं। हम आपका कोई भी डेटा नहीं बेचते हैं। हम भविष्य में आपको नई सामान्य सेवाओं के निर्माण के लिए अपना कुछ डेटा शेयर करने का प्रस्ताव दे सकते हैं जो इकोसिस्टम के लिए उपयोगी हो सकती हैं (जैसे कि शॉर्ट फूड सिस्टम के लिए लॉजिस्टिक्स सेवाएं) लेकिन हम अभी तक वहां नहीं हैं, और हम आपके प्राधिकरण के बिना ऐसा नहीं करेंगे :-)"
+      desc_part_3: "हम कुकीज़ का उपयोग मुख्य रूप से यह याद रखने के लिए करते हैं कि आप कौन हैं, यदि आप सेवा में 'लॉग इन' करते हैं, या आपके कार्ट में रखी गई वस्तुओं को याद रखने में सक्षम होने के लिए, भले ही आप लॉग इन न हों। यदि आप “कुकीज़ स्वीकार करें” पर क्लिक किए बिना वेबसाइट पर नेविगेट करते रहते हैं, तो हम मानते हैं कि आप हमें उन कुकीज़ को स्टोर करने के लिए सहमति दे रहे हैं जो वेबसाइट के कामकाज के लिए आवश्यक हैं। हमारे द्वारा उपयोग की जाने वाली कुकीज़ की सूची यहां दी गई है!"
+      essential_cookies: "आवश्यक कुकीज़"
+      essential_cookies_desc: "हमारी वेबसाइट के संचालन के लिए निम्नलिखित कुकीज़ कठोरता से जरूरी हैं।"
+      essential_cookies_note: "बहुत सी कुकीज़ में केवल एक यूनीक पहचानकर्ता होता है, लेकिन कोई अन्य डेटा नहीं होता है, इसलिए उदाहरण के लिए आपका ईमेल पता और पासवर्ड कभी भी उनमें समाहित नहीं होता है और कभी उजागर नहीं होता है।"
+      cookie_domain: "इसके द्वारा सेट करें:"
+      cookie_session_desc: "वेबसाइट को पेज विज़िट के बीच यूज़र को याद रखने की अनुमति देने के लिए उपयोग किया जाता है, उदाहरण के लिए, अपने कार्ट में आइटम याद रखें।"
+      cookie_consent_desc: "कुकीज़ को स्टोर करने के लिए यूज़र्स की सहमति की स्थिति बनाए रखने के लिए उपयोग किया जाता है"
+      cookie_remember_me_desc: "इसका उपयोग तब किया जाता है जब यूज़र ने वेबसाइट से उसे याद रखने का अनुरोध किया हो। यह कुकी 12 दिनों के बाद ऑटोमैटिक्ली हटा दी जाती है। यदि एक यूज़र्स के रूप में आप चाहते हैं कि कुकी हटा दी जाए, तो आपको सिर्फ लॉग-आउट करने की जरूरत है। यदि आप नहीं चाहते कि कुकी आपके कंप्यूटर में इंस्टॉल हो, तो आपको लॉग-इन करते समय “मुझे याद रखें” चेकबॉक्स को चेक नहीं करना चाहिए।"
+      cookie_openstreemap_desc: "इसका उपयोग हमारे सहायक ओपन सोर्स मैपिंग प्रदाता (OpenStreetMap) द्वारा यह सुनिश्चित करने के लिए किया जाता है कि किसी निश्चित समयावधि के दौरान उसे बहुत ज्यादा अनुरोध प्राप्त न हों, ताकि उनकी सेवाओं के दुरुपयोग को रोका जा सके।"
+      cookie_stripe_desc: "धोखाधड़ी का पता लगाने के लिए हमारे भुगतान प्रॉसेसर Stripe द्वारा एकत्र किया गया डेटा https://stripe.com/cookies-policy/legal. सभी दुकानें भुगतान विधि के रूप में Stripe का उपयोग नहीं करती हैं, लेकिन धोखाधड़ी को रोकने के लिए इसे सभी पेजों पर लागू करना एक अच्छी प्रैक्टिस है। Stripe शायद इस बात की तस्वीर बनाता है कि हमारे कौन से पेज आमतौर पर उनके API के साथ इंटरैक्ट करते हैं और फिर किसी भी असामान्य चीज़ को फ़्लैग करते हैं। इसलिए Stripe कुकी सेट करना यूज़र्स के लिए भुगतान विधि के प्रावधान की तुलना में व्यापक कार्य है। इसे हटाने से सेवा की सुरक्षा स्वयं प्रभावित हो सकती है। आप Stripe के बारे में ज्यादा जान सकते हैं और https://stripe.com/privacy पर इसकी गोपनीयता नीति पढ़ सकते हैं।"
+      statistics_cookies: "सांख्यिकी कुकीज़"
+      statistics_cookies_desc: "निम्नलिखित सख्ती से आवश्यक नहीं हैं, लेकिन हमें यूज़र्स व्यवहार का विश्लेषण करने, यह पहचानने की अनुमति देकर कि आप किन फीचर्स का सबसे ज्यादा उपयोग करते हैं, या उपयोग नहीं करते हैं, यूज़र्स अनुभव समस्याओं को समझने आदि की अनुमति देकर आपको सर्वश्रेष्ठ यूज़र्स अनुभव प्रदान करने में मदद करते हैं।"
+      statistics_cookies_matomo_desc_html: "प्लेटफ़ॉर्म उपयोग डेटा एकत्र करने और उसका विश्लेषण करने के लिए, हम <a href='https://matomo.org/' target='_blank'>Matomo</a> (ex Piwik) का उपयोग करते हैं, जो एक ओपन सोर्स एनालिटिक्स टूल है जो GDPR के अनुरूप है और आपकी गोपनीयता की सुरक्षा करता है।"
+      statistics_cookies_matomo_optout: "क्या आप Matomo एनालिटिक्स से ऑप्ट-आउट करना चाहते हैं? हम कोई व्यक्तिगत डेटा एकत्र नहीं करते हैं, और Matomo हमारी सेवा को बेहतर बनाने में हमारी मदद करता है, लेकिन हम आपकी पसंद का सम्मान करते हैं :-)"
+      cookie_matomo_basics_desc: "आंकड़े एकत्र करने के लिए Matomo पहली पार्टी कुकीज़ है।"
+      cookie_matomo_heatmap_desc: "Matomo Heatmap और सत्र रिकॉर्डिंग कुकी।"
+      cookie_matomo_ignore_desc: "कुकी का उपयोग यूज़र्स को ट्रैक किए जाने से बाहर करने के लिए किया जाता था।"
+      disabling_cookies_header: "कुकीज़ को अक्षम करने पर चेतावनी"
+      disabling_cookies_desc: "एक यूज़र के रूप में आप अपने ब्राउज़र के सेटिंग नियंत्रण के माध्यम से जब चाहें Open Food Network या किसी अन्य वेबसाइट कुकीज़ को हमेशा अनुमति दे सकते हैं, ब्लॉक कर सकते हैं या हटा सकते हैं। प्रत्येक ब्राउज़र का एक अलग ऑपरेटिव होता है। यहां लिंक दिए गए हैं:"
+      disabling_cookies_firefox_link: "https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences"
+      disabling_cookies_chrome_link: "https://support.google.com/chrome/answer/95647"
+      disabling_cookies_ie_link: "https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies"
+      disabling_cookies_safari_link: "https://www.apple.com/legal/privacy/en-ww/cookies/"
+      disabling_cookies_note: "लेकिन ध्यान रखें कि यदि आप Open Food Network द्वारा उपयोग की जाने वाली आवश्यक कुकीज़ को हटाते हैं या संशोधित करते हैं, तो वेबसाइट काम नहीं करेगी, आप अपने कार्ट में कुछ भी जोड़ नहीं पाएंगे और न ही उदाहरण के लिए चेकआउट कर पाएंगे।"
+    cookies_banner:
+      cookies_usage: "यह साइट आपके नेविगेशन को घर्षणहीन और सुरक्षित बनाने के लिए और हमारे द्वारा ऑफर किए जाने वाले फीचर को बेहतर बनाने के लिए आप इसका उपयोग कैसे करते हैं, यह समझने में हमारी सहायता करने के लिए कुकीज़ का उपयोग करती है।"
+      cookies_definition: "जब आप कुछ वेबसाइटों पर जाते हैं तो कुकीज़ बहुत छोटी टेक्स्ट फ़ाइलें होती हैं जो आपके कंप्यूटर में स्टोर होती हैं।"
+      cookies_desc: "हम सिर्फ उन कुकीज़ का उपयोग करते हैं जो आपको ऑनलाइन खाद्यान्न की बिक्री और खरीद सेवा प्रदान करने के लिए आवश्यक हैं। हम आपका कोई भी डेटा नहीं बेचते हैं। हम कुकीज़ का उपयोग मुख्य रूप से यह याद रखने के लिए करते हैं कि आप कौन हैं, यदि आप सेवा में 'लॉग इन' करते हैं, या आपके द्वारा अपने कार्ट में रखे गए आइटम को याद रखने में सक्षम होने के लिए, भले ही आप लॉग इन न हों। यदि आप “कुकीज़ स्वीकार करें” पर क्लिक किए बिना वेबसाइट पर नेविगेट करते रहते हैं, तो हम मानते हैं कि आप हमें उन कुकीज़ को स्टोर करने के लिए सहमति दे रहे हैं जो वेबसाइट के कामकाज के लिए आवश्यक हैं।"
+      cookies_policy_link_desc: "यदि आप और सीखना चाहते हैं, तो हमारा चेक करें"
+      cookies_policy_link: "कुकीज़ नीति"
+      cookies_accept_button: "कुकीज़ स्वीकार करें"
+  home_shop: अभी खरीदें
+  brandstory_headline: "कृषि उत्पाद, स्थानीय और ऑनलाईन!"
+  brandstory_intro: "कभी-कभी सिस्टम को ठीक करने का सबसे अच्छा तरीका एक नया सिस्टम शुरू करना होता है…"
+  brandstory_part1: "ओपन फूड नेटवर्क सॉफ्टवेयर प्लेटफॉर्म किसानों को लाभदायक कीमतों पर अपनी उपज ऑनलाइन बेचने की सुविधा देता है। यह सॉफ़्टवेयर खाद्यान्न बेचने के लिए डिज़ाइन किया गया है ताकि यह विभिन्न मापों या स्टॉक स्तरों को संभाल सके जो केवल कृषि उत्पादों में आम हैं। जैसे एक दर्जन अंडे, धनिया का एक गुच्छा, या एक पूरे चिकन का वजन जो अलग-अलग हो सकता है।"
+  brandstory_part2: "खाद्यान्न उत्पादक, Farmers Markets, Farmer Producer Organizations (FPO), या Farmer Producer Companies (FPC) अपनी खुद की ऑनलाइन दुकान बना सकते हैं, ऑनलाइन पेमेंट ले सकते है, या इसी वेबसाइट पर अन्य दुकानों के माध्यम से बेच भी सकते हैं।"
+  brandstory_part3: "थोक विक्रेता, Farmer Producer Organizations (FPO), या Farmer Producer Companies (FPC), OFN को अपने द्वारा उपयोग किए जाने वाले सॉफ़्टवेयर के साथ integrate कर सकते हैं और ऑनलाइन खाद्य केंद्रों और दुकानों के हमारे राष्ट्रीय नेटवर्क के माध्यम से ग्राहकों को अपने उत्पादों की आपूर्ति करने के लिए खरीद समूह बना सकते हैं।"
+  brandstory_part4: "Farmers Markets एक ऑनलाइन किसान बाजार बनाने के लिए अपने स्थानीय क्षेत्र में उत्पादकों को एक साथ ला सकते हैं, जिससे एक मजबूत स्थानीय खाद्य अर्थव्यवस्था बन सकती है।"
+  brandstory_part5_strong: "हम इसे Open Food Network कहते हैं।"
+  brandstory_part6: "यदि आप अच्छा खाद्य बेचते हैं - एक किसान, किसान बाजार, खाद्य सहकारी समिति, या खाद्य केंद्र के रूप में - तो ऐसा सॉफ़्टवेयर चुनें जो लोगों और पृथ्वी के लिए खाद्य प्रणाली बनाने के आपके मूल्यों के अनुरूप हो, न कि लाभ के लिए। प्रतिस्पर्धात्मक रूप से बजाय सामूहिक रूप से काम करके, हम नए सॉफ़्टवेयर विकसित करने की लागत साझा करते हैं, और हम यह सुनिश्चित करते हैं कि हमारी परियोजना लचीली है!"
+  system_headline: "OFN पर कैसे बेचें - 3 आसान स्टेप्स।"
+  system_step1: "1. एक नया खाता बनाएं"
+  system_step1_text: "• अपने कृषि व्यवसाय या दुकान का नाम, विवरण और संपर्क विवरण दर्ज करें • फ़ोटो और सोशल मीडिया विवरण दर्ज करें"
+  system_step2: "2. अपने उत्पादों की सूची बनाएं"
+  system_step2_text: "अपनी दुकान में - अपने स्वयं के और/या अपने आस-पास के अन्य निर्माताओं के उत्पाद दर्ज करें। छवियाँ, विवरण, कीमतें, स्टॉक स्तर, वज़न और माप सेट करें।"
+  system_step3: "3. पिक-अप/डिलीवरी"
+  system_step3_text: "भुगतान विधियाँ सेट करें. एकल या एकाधिक पिक-अप पॉइंट और डिलीवरी विवरण बनाएं। आवर्ती ऑर्डर और नियमित डिलीवरी व्यवस्था बनाएं।"
+  cta_headline: "एक आधुनिक खाद्यान्न क्रय एवं विक्रय प्रणाली।"
+  cta_label: "मैं तैयार हूँ"
+  stats_headline: "हम एक नई खाद्यान्न व्यवस्था बना रहे हैं।"
+  stats_producers: "खाद्यान्नों के उत्पादक"
+  stats_shops: "खाद्यान्नों की दुकानें"
+  stats_shoppers: "खाद्यान्नों के दुकानदार"
+  stats_orders: "खाद्यान्नों के ऑर्डर्स"
+  checkout_title: चेकआउट
+  checkout_now: अभी चेकआउट करें
+  checkout_order_ready: ऑर्डर के लिए तैयार
+  checkout_hide: छिपाएँ
+  checkout_expand: बढ़ाएँ
+  checkout_headline: "ठीक है, चेकआउट के लिए तैयार हैं?"
+  checkout_as_guest: "मेहमान के रूप में चेकआउट करें"
+  checkout_details: "आपकी जानकारी"
+  checkout_billing: "बिलिंग की जानकारी"
+  checkout_default_bill_address: "डिफ़ॉल्ट बिलिंग पते के रूप में सेव करें"
+  checkout_shipping: शिपिंग की जानकारी
+  checkout_default_ship_address: "डिफ़ॉल्ट शिपिंग पते के रूप में सेव करें"
+  checkout_method_free: फ्री
+  checkout_address_same: शिपिंग पता बिलिंग पते के जैसा ही है?
+  checkout_ready_for: "इसके लिए तैयार:"
+  checkout_instructions: "कोई कमेंट्स या विशेष निर्देश?"
+  checkout_payment: भुगतान
+  checkout_send: अभी ऑर्डर दें
+  checkout_your_order: आपका ऑर्डर
+  checkout_cart_total: कुल कार्ट
+  checkout_shipping_price: शिपिंग
+  checkout_total_price: कुल
+  checkout_back_to_cart: "कार्ट में वापस जाएं"
+  cost_currency: "कॉस्ट करेंसी"
   order_paid: भुगतान किया
   order_not_paid: भुगतान नहीं किया गया
   order_total: कुल ऑर्डर
@@ -2279,7 +2277,7 @@ hi:
   products_no_results_html: "माफ करें, %{query} के लिए कोई परिणाम नहीं मिला"
   products_clear_search: "सर्च साफ़ करें"
   search_no_results_html: "माफ करें, %{query} के लिए कोई परिणाम नहीं मिला। दूसरा सर्च करने की कोशिश करें?"
-  components_profiles_popover: "प्रोफाइल का ओपन फ़ूड नेटवर्क पर कोई शॉपफ्रन्ट नहीं है, लेकिन उनकी अपनी भौतिक या ऑनलाइन शॉप कहीं और हो सकती है"
+  components_profiles_popover: "प्रोफाइल्स का ओपन फ़ूड नेटवर्क पर कोई शॉपफ्रन्ट नहीं है, लेकिन उनकी अपनी भौतिक या ऑनलाइन शॉप कहीं और हो सकती है"
   components_profiles_show: "प्रोफ़ाइल दिखाएं"
   components_filters_nofilters: "कोई फ़िल्टर नहीं"
   components_filters_clearfilters: "सभी फ़िल्टर साफ़ करें"
@@ -2356,12 +2354,12 @@ hi:
   sell_hubs_detail: "OFN पर अपने खाद्यान्न एंटरप्राइज़ या संगठन के लिए एक प्रोफ़ाइल सेट करें। किसी भी समय आप अपनी प्रोफ़ाइल को मल्टी-उत्पादक शॉप में अपग्रेड कर सकते हैं।"
   sell_groups_detail: "अपने क्षेत्र के लिए या अपने संगठन के लिए एंटरप्राइजों (उत्पादकों और दूसरे खाद्यान्नों के एंटरप्राइज़) की एक अनुकूलित निर्देशिका सेट करें।"
   sell_user_guide: "हमारी यूज़र गाइड में और जानें।"
-  sell_listing_price: "OFN पर लिस्टिंग फ्री है। OFN पर शॉप खोलना और चलाना ₹50,000 की मासिक बिक्री तक फ्री है। यदि आप ज्यादा बिक्री करते हैं तो आप बिक्री के 1% से 3% के बीच अपना सामुदायिक योगदान चुन सकते हैं। मूल्य निर्धारण के बारे में ज्यादा जानकारी के लिए शीर्ष मेन्यू में अबाउट लिंक के माध्यम से सॉफ़्टवेयर प्लेटफ़ॉर्म अनुभाग पर जाएं।"
+  sell_listing_price: "OFN India पर लिस्टिंग फ्री है। दुकानों और हब्स के लिए योजनाएं कम से कम ₹375 प्रति माह से शुरू होती हैं। मूल्य निर्धारण के बारे में अधिक जानकारी के लिए https://about.openfoodindia.org/pricing/ पर जाएं।"
   sell_embed: "हम आपकी अपनी अनुकूलित वेबसाइट में एक OFN शॉप भी एम्बेड कर सकते हैं या आपके क्षेत्र के लिए एक अनुकूलित स्थानीय खाद्यान्न नेटवर्क वेबसाइट बना सकते हैं।"
   sell_ask_services: "OFN सेवाओं के बारे में हमसे पूछें।"
   shops_title: दुकानें
   shops_headline: खरीदारी, पूरी तरह से बदली हुई।
-  shops_text: अनाज साइकल में उगता है, किसान साइकल में कटाई करते हैं, और हम अनाज को साइकल में ऑर्डर करते हैं। अगर आपको कोई ऑर्डर साइकल बंद मिलता है, तो जल्द ही वापस चेक करें।
+  shops_text: खाद्य फसलें एक विशिष्ट अवधि में उगती हैं, किसान एक विशिष्ट अवधि में फसल काटते हैं और हम भी एक विशिष्ट अवधि (सायकल) में खाद्य पदार्थो का ऑर्डर देते हैं। यदि जिस स्टोर पर आप जाना चाहते हैं उसका ऑर्डर चक्र बंद है, तो बाद में पुनः प्रयास करें।
   shops_signup_title: हब के रूप में साइन अप करें
   shops_signup_headline: खाद्यान्न हब्स, असीमित।
   shops_signup_motivation: आपका मॉडल जो भी हो, हम आपका समर्थन करते हैं। आप जैसे भी बदलते हैं, हम आपके साथ हैं। हम गैर-लाभकारी, स्वतंत्र और ओपन-सोर्स हैं। हम वे सॉफ़्टवेयर पार्टनर हैं जिनके बारे में आपने सपने देखे हैं।
@@ -2493,18 +2491,18 @@ hi:
         producer: "वूट! सबसे पहले हमें आपके फार्म/खेत के बारे में थोड़ा बहुत जानने कि जरूरत है:"
         enterprise_name_field: "एंटरप्राइज़ का नाम:"
         producer_name_field: "फार्म का नाम:"
-        producer_name_field_placeholder: "उदाहरण प्रकाश सिंह जी का जबरदस्त फार्म"
+        producer_name_field_placeholder: "उदाहरण प्रकाश सिंह जी का फार्म"
         producer_name_field_error: "कृपया अपने एंटरप्राइज़ के लिए एक यूनीक नाम चुनें"
         address1_field: "पता पंक्ति 1:"
         address1_field_placeholder: "उदाहरण 123 सरदार वल्लभ पटेल रोड"
         address1_field_error: "कृपया पता एंटर करें"
         address2_field: "पता पंक्ति 2:"
         suburb_field: "उपनगर:"
-        suburb_field_placeholder: "उदाहरण नॉर्थकोट"
+        suburb_field_placeholder: "उदाहरण कोल्हापुर"
         suburb_field_error: "कृपया एक उपनगर में प्रवेश करें"
-        postcode_field: "पोस्टकोड:"
-        postcode_field_placeholder: "उदाहरण 3070"
-        postcode_field_error: "पोस्टकोड आवश्यक"
+        postcode_field: "पिनकोड:"
+        postcode_field_placeholder: "उदाहरण 400081"
+        postcode_field_error: "पिनकोड आवश्यक"
         state_field: "राज्य:"
         state_field_error: "राज्य आवश्यक"
         country_field: "देश:"
@@ -2524,7 +2522,7 @@ hi:
         whatsapp_phone_field: "WhatsApp फ़ोन नंबर"
         whatsapp_phone_tooltip: "यह नंबर आपकी सार्वजनिक प्रोफ़ाइल में प्रदर्शित होगा जिसे WhatsApp लिंक के रूप में खोला जाएगा।"
         phone_field_placeholder: "उदाहरण (03) 1234 5678"
-        whatsapp_phone_field_placeholder: "उदाहरण +61 4 1234 5678"
+        whatsapp_phone_field_placeholder: "उदाहरण +91 4 1234 5678"
       type:
         title: "टाइप करें"
         headline: "%{enterprise} जोड़ने का अंतिम चरण!"
@@ -2568,7 +2566,7 @@ hi:
         logo_placeholder: "एक बार अपलोड होते ही आपका लोगो रिव्यू के लिए यहां दिखाई देगा"
       promo:
         select_promo_image: "चरण 3. प्रोमो छवि चुनें"
-        promo_image_tip: "टिप: एक बैनर के रूप में दिखाया गया है, वरीयता प्राप्त1200×260px है"
+        promo_image_tip: "टिप: एक बैनर के रूप में दिखाया गया है, वरीयता प्राप्त 1200×260px है"
         promo_image_label: "प्रोमो छवि चुनें"
         promo_image_drag: "अपने प्रोमो को यहां खींचें और छोड़ें"
         review_promo_image: "चरण 4. अपने प्रोमो बैनर को रिव्यू करें"
@@ -2590,8 +2588,8 @@ hi:
         instagram_placeholder: "उदाहरण @instagram_handle"
       limit_reached:
         headline: "अरे नहीं!"
-        message: "आप सीमा तक पहुँच गए हैं!"
-        text: "आप उन एंटरप्राइजिस की संख्या की सीमा तक पहुँच गए हैं, जिनका आपको मालिक होने की अनुमति है"
+        message: "आप limit तक पहुँच गए हैं!"
+        text: "आप उन एंटरप्राइजिस की संख्या की limit तक पहुँच गए हैं, जितनोंकी आपको मालिक होने की अनुमति है"
         action: "होमपेज पर वापस लौटें"
       finished:
         headline: "समाप्त हुआ!"
@@ -2658,7 +2656,7 @@ hi:
   admin_enterprise_groups_data_powertip_logo: "यह लोगो ग्रुप के लिए है"
   admin_enterprise_groups_data_powertip_promo_image: "यह छवि ग्रुप प्रोफ़ाइल के शीर्ष पर प्रदर्शित होती है"
   admin_enterprise_groups_contact_phone_placeholder: "उदाहरण 98 7654 3210"
-  admin_enterprise_groups_contact_address1_placeholder: "उदाहरण के लिए 123 सरदार वल्लभ पटेल रोड"
+  admin_enterprise_groups_contact_address1_placeholder: "उदाहरण के लिए 123 सरदार वल्लभभाई पटेल रोड"
   admin_enterprise_groups_contact_city: "उपनगर"
   admin_enterprise_groups_contact_city_placeholder: "उदाहरण नॉर्थकोट"
   admin_enterprise_groups_contact_zipcode: "पोस्टकोड"
@@ -2688,9 +2686,9 @@ hi:
   tax_category: "टैक्स श्रेणी"
   display: "प्रदर्शित करें"
   tags: "टैग्स"
-  calculator: "कैलकुलेटर"
-  calculator_values: "कैलकुलेटर वैल्यू"
-  calculator_settings_warning: "यदि आप कैलकुलेटर प्रकार बदल रहे हैं, तो कैलकुलेटर सेटिंग्स को एडिट करने से पहले आपको उसे सेव करना होगा"
+  calculator: "कॅल्क्युलेटर"
+  calculator_values: "कॅल्क्युलेटर वैल्यू"
+  calculator_settings_warning: "यदि आप कॅल्क्युलेटर प्रकार बदल रहे हैं, तो कॅल्क्युलेटर सेटिंग्स को एडिट करने से पहले आपको उसे सेव करना होगा"
   calculator_preferred_unit_error: "किलो या पौंड होना चाहिए"
   calculator_preferred_value_error: "अमान्य इनपुट। कृपया केवल नंबर का उपयोग करें। उदाहरण के लिए: 10, 5.5, -20"
   flat_percent_per_item: "फ्लैट प्रतिशत (प्रति आइटम)"
@@ -2707,7 +2705,7 @@ hi:
   roles: "भूमिकाएँ"
   update: "अपडेट करें"
   delete: हटाएं
-  add_producer_property: "उत्पादक उत्पादक जोड़ें"
+  add_producer_property: "उत्पादक प्रॉपर्टी जोड़ें"
   in_progress: "प्रगति पर है"
   started_at: "से शुरू हुआ"
   queued: "पंक्तिबद्ध"
@@ -3065,11 +3063,7 @@ hi:
   enterprise_bulk_update_success_notice: "एंटरप्राइजिस सफलतापूर्वक अपडेट किए गए"
   enterprise_bulk_update_error: 'अपडेट विफल हुआ'
   enterprise_shop_show_error: "आप जिस शॉप की तलाश कर रहे हैं वह मौजूद नहीं है या OFN पर निष्क्रिय है। कृपया अन्य शॉपों को चेक करें।"
-  order_cycles_create_notice: 'आपका ऑर्डर साइकल बनाया गया है।'
-  order_cycles_update_notice: 'आपका ऑर्डर साइकल अपडेट कर दिया गया है।'
   order_cycles_bulk_update_notice: 'ऑर्डर साइकल अपडेट कर दिए गए हैं।'
-  order_cycles_clone_notice: "आपका ऑर्डर साइकल %{name} क्लोन कर दिया गया है।"
-  order_cycles_email_to_producers_notice: 'उत्पादकों को भेजे जाने वाले ईमेल भेजने के लिए कतारबद्ध किए गए हैं।'
   order_cycles_no_permission_to_coordinate_error: "आपके किसी भी एंटरप्राइजिस़ को ऑर्डर साइकल का समन्वय करने की अनुमति नहीं है"
   order_cycles_no_permission_to_create_error: "आपके पास उस एंटरप्राइजिस द्वारा समन्वित ऑर्डर साइकल बनाने की अनुमति नहीं है"
   order_cycle_closed: "आपके द्वारा चुना गया ऑर्डर साइकल अभी बंद हुआ है। कृपया फिर से कोशिश करें!"
@@ -3402,9 +3396,9 @@ hi:
       show_hide_payment: 'चेकआउट के समय भुगतान विधियाँ दिखाएं या छिपाएँ'
       show_hide_order_cycles: 'मेरे शॉपफ्रन्ट में ऑर्डर साइकल दिखाएं या छिपाएँ'
       visible: दृश्यमान
-      not_visible: सेव नहीं किए गए परिवर्तन वर्तमान में मौजूद हैं, अभी सेव करें या अनदेखा करें?
+      not_visible: अदृश्य है
     services:
-      unsaved_changes_message: दिखाई नहीं दे रहा है
+      unsaved_changes_message: सेव नहीं किए गए परिवर्तन वर्तमान में मौजूद हैं, अभी सेव करें या अनदेखा करें?
       save: सेव करें
       ignore: अनदेखा करें
       add_to_order_cycle: "ऑर्डर साइकल में जोड़ें"
@@ -3451,7 +3445,7 @@ hi:
       other: "हर एक"
     bunch:
       one: "बंच"
-      other: "बंच"
+      other: "बंचेस"
     pack:
       one: "पैक"
       other: "पैक्स"
@@ -3460,7 +3454,7 @@ hi:
       other: "बॉक्सिस"
     bottle:
       one: "बोतल"
-      other: "बोतल"
+      other: "बोतलें"
     jar:
       one: "जार"
       other: "जार"
@@ -3496,7 +3490,7 @@ hi:
       other: "यूनिट्स"
     serve:
       one: "सर्व"
-      other: "सर्व"
+      other: "serves"
     tray:
       one: "ट्रे"
       other: "ट्रे"
@@ -3562,7 +3556,7 @@ hi:
               fee_placement: "फीस प्लेसमेंट"
               fee_calculated_on_transfer_through_name: "के माध्यम से ट्रांसफर पर फीस कैलकुलेशन"
               tax_category_name: "टैक्स श्रेणी"
-              total_amount: "$$ योग"
+              total_amount: "₹₹ योग"
           html:
             header:
               fee_type: "फीस का प्रकार"
@@ -3572,7 +3566,7 @@ hi:
               fee_placement: "फीस प्लेसमेंट"
               fee_calculated_on_transfer_through_name: "के माध्यम से ट्रांसफर पर फीस कैलकुलेशन"
               tax_category_name: "टैक्स श्रेणी"
-              total_amount: "$$ योग"
+              total_amount: "₹₹ योग"
         invalid_filter_parameters: "इस रिपोर्ट के लिए आपके द्वारा चुने गए फ़िल्टर अमान्य हैं।"
       report:
         none: "कोई नहीं"
@@ -3673,15 +3667,15 @@ hi:
     cannot_create_returns: "रिटर्न नहीं बना सकता क्योंकि इस ऑर्डर में कोई शिप की गई यूनिट नहीं है।"
     select_stock: "स्टॉक चुनें"
     location: "लोकेशन"
-    count_on_hand: "हाथ में गिनें"
+    count_on_hand: "Count अभी उपलब्ध"
     quantity: "मात्रा"
-    on_demand: "अभी मांग में "
+    on_demand: "अभी मांग में"
     on_hand: "अभी उपलब्ध"
     package_from: "से पैकेज"
     item_description: "आइटम विवरण"
     price: "कीमत"
     total: "कुल"
-    edit: "एडिट करें "
+    edit: "एडिट करें"
     split: "स्प्लिट"
     delete: "हटाएं"
     cannot_set_shipping_method_without_address: "जब तक ग्राहक विवरण प्रदान नहीं किया जाता तब तक शिपिंग विधि सेट नहीं की जा सकती।"
@@ -3722,7 +3716,7 @@ hi:
     landing_page: "लैंडिंग पेज"
     server: "सर्वर"
     test_mode: "टेस्ट मोड"
-    logourl: "लॉग-आउट करें "
+    logourl: "लॉग-आउट करें"
     are_you_sure_delete: "क्या आप वाकई इस रिकॉर्ड को मिटाना चाहते हैं?"
     confirm_delete: "हटाने की पुष्टि करें"
     configurations: "कॉन्फ़िगरेशन करें"
@@ -3741,7 +3735,7 @@ hi:
     choose_currency: "करेंसी चुनें"
     mail_method_settings: "मेल विधि सेटिंग"
     mail_settings_notice_html: "<b>यहां किए गए परिवर्तन केवल डिबगिंग के लिए अस्थायी</b> होंगे, और भविष्य में वापस आ सकते हैं। <br>इंस्टेंस के रहस्यों को अपडेट करके और <a href='https://github.com/openfoodfoundation/ofn-install'>ऑफ़-इंस्टॉल</a>का उपयोग करके उन्हें प्रोविज़न करके स्थायी परिवर्तन किए जा सकते हैं। अधिक जानकारी के लिए OFN ग्लोबल टीम से संपर्क करें।"
-    general: "सामान्य "
+    general: "सामान्य"
     enable_mail_delivery: "मेल डिलीवरी अक्षम करें"
     send_mails_as: "इस रूप में मेल भेजें"
     smtp_send_all_emails_as_from_following_address: "निम्नलिखित पते से सभी मेल भेजें।"
@@ -3792,7 +3786,7 @@ hi:
     description: "विवरण"
     type: "प्रकार"
     default: "डिफ़ॉल्ट"
-    calculator: "कैलकुलेटर"
+    calculator: "कॅल्क्युलेटर"
     zone: "ज़ोन"
     display: "प्रदर्शित करें"
     environment: "पर्यावरण"
@@ -4046,7 +4040,7 @@ hi:
           name: "नाम"
           products_distributor: "वितरक"
           zone: "ज़ोन"
-          calculator: "कैलकुलेटर"
+          calculator: "कॅल्क्युलेटर"
           display: "प्रदर्शित करें"
           both: "चेकआउट और बैक ऑफिस दोनों"
           back_end: "केवल बैक ऑफ़िस"
@@ -4142,7 +4136,7 @@ hi:
           unit_price: "यूनिट की कीमत"
           unit_price_legend: "आइटम की कीमत के आधार पर कैलकुलेट किया गया"
           on_hand: "अभी उपलब्ध"
-          on_demand: "अभी मांग में "
+          on_demand: "अभी मांग में"
           product_description: "उत्पाद का विवरण"
           image: "छवि"
         unit_name_placeholder: 'उदाहरण के लिए गुच्छे'
@@ -4349,8 +4343,8 @@ hi:
         shipment_summary: "शिपमेंट का सारांश"
         subject: "शिपमेंट नोटिफिकेशन"
         thanks: "आपके बिजनेस के लिए धन्यवाद।"
-        track_information: "ट्रैकिंग जानकारी: %{tracking} "
-        track_link: "ट्रैकिंग लिंक: %{url} "
+        track_information: "ट्रैकिंग जानकारी: %{tracking}"
+        track_link: "ट्रैकिंग लिंक: %{url}"
         picked_up_instructions: "%{distributor} से आपका ऑर्डर पिक-अप कर लिया गया है"
         picked_up_subject: "पिक-अप नोटिफिकेशन"
     test_mailer:
@@ -4436,7 +4430,7 @@ hi:
         changes_allowed_until: जब तक परिवर्तन की अनुमति नहीं है
         items: आइटम्स
         total: कुल
-        edit: एडिट करें 
+        edit: एडिट करें
         cancel: रद्द करें
         closed: बंद किया गया
         until: जब तक

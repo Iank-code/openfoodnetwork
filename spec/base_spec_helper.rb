@@ -50,6 +50,11 @@ end
 FactoryBot.use_parent_strategy = false
 FactoryBot::SyntaxRunner.include FileHelper
 
+# raise I18n exception handler
+I18n.exception_handler = proc do |exception, *_|
+  raise exception.to_exception
+end
+
 RSpec.configure do |config|
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{Rails.root.join('spec/fixtures')}"
@@ -86,6 +91,12 @@ RSpec.configure do |config|
   # Force use of expect (over should)
   config.expect_with :rspec do |expectations|
     expectations.syntax = :expect
+  end
+
+  # Reset all feature toggles to prevent leaking.
+  config.before(:suite) do
+    Flipper.features.each(&:remove)
+    OpenFoodNetwork::FeatureToggle.setup!
   end
 
   config.before(:each, :feature) do |example|
@@ -146,11 +157,21 @@ RSpec.configure do |config|
   #
   config.around(:each, :stripe_version) do |example|
     stripe_version = "Stripe-v#{Stripe::VERSION}"
+    cassette_library_dir, default_cassette_options = nil, nil
+
     VCR.configure do |vcr_config|
-      vcr_config.cassette_library_dir = "spec/fixtures/vcr_cassettes/#{stripe_version}"
+      cassette_library_dir = vcr_config.cassette_library_dir
+      default_cassette_options = vcr_config.default_cassette_options
+      vcr_config.cassette_library_dir += "/#{stripe_version}"
       vcr_config.default_cassette_options = { record: :none } if ENV["CI"]
     end
+
     example.run
+
+    VCR.configure do |vcr_config|
+      vcr_config.cassette_library_dir = cassette_library_dir
+      vcr_config.default_cassette_options = default_cassette_options
+    end
   end
 
   # Geocoding
@@ -230,4 +251,5 @@ RSpec.configure do |config|
   config.include Features::DatepickerHelper, type: :system
   config.include Features::TrixEditorHelper, type: :system
   config.include DownloadsHelper, type: :system
+  config.include ReportsHelper, type: :system
 end

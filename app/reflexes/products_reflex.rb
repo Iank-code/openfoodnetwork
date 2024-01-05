@@ -38,13 +38,12 @@ class ProductsReflex < ApplicationReflex
     @products = product_set.collection # use instance variable mainly for testing
 
     if product_set.save
-      # flash[:success] = with_locale { I18n.t('.success') }
-      # morph_admin_flashes  # ERROR: selector morph type has already been set
+      flash[:success] = I18n.t('admin.products_v3.bulk_update.success')
     elsif product_set.errors.present?
       @error_counts = { saved: product_set.saved_count, invalid: product_set.invalid.count }
     end
 
-    render_products_form
+    render_products_form_with_flash
   end
 
   private
@@ -85,9 +84,10 @@ class ProductsReflex < ApplicationReflex
     morph :nothing
   end
 
-  def render_products_form
+  def render_products_form_with_flash
     locals = { products: @products }
     locals[:error_counts] = @error_counts if @error_counts.present?
+    locals[:flashes] = flash if flash.any?
 
     cable_ready.replace(
       selector: "#products-form",
@@ -167,18 +167,26 @@ class ProductsReflex < ApplicationReflex
     # Form field names:
     #   '[products][0][id]' (hidden field)
     #   '[products][0][name]'
+    #   '[products][0][variants_attributes][0][id]' (hidden field)
+    #   '[products][0][variants_attributes][0][display_name]'
     #
     # Resulting in params:
     #     "products" => {
-    #       "<i>" =>  {
+    #       "0" =>  {
     #         "id" => "123"
     #         "name" => "Pommes",
+    #         "variants_attributes" => {
+    #           "0" => {
+    #           "id" => "1234",
+    #           "display_name" => "Large box",
+    #         }
     #       }
     #     }
-
-    collection_hash = products_bulk_params[:products].each_with_index
-      .to_h { |p, i|
-        [i, p]
+    collection_hash = products_bulk_params[:products]
+      .transform_values { |product|
+        # Convert variants_attributes form hash to an array if present
+        product[:variants_attributes] &&= product[:variants_attributes].values
+        product
       }.with_indifferent_access
     Sets::ProductSet.new(collection_attributes: collection_hash)
   end

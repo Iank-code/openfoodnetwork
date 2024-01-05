@@ -26,4 +26,12 @@ class Invoice < ApplicationRecord
   def cancel_previous_invoices
     order.invoices.where.not(id:).update_all(cancelled: true)
   end
+
+  def display_number
+    "#{order.distributor.id}-#{number}"
+  end
+
+  def previous_invoice
+    order.invoices.where("id < ?", id).first
+  end
 end
